@@ -1,0 +1,18 @@
+.totaltckt {
+  float: left;
+  /*margin-top: -819px;*/
+  height: 60px;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  font: 25px "DIGITAL", Helvetica;
+  background: linear-gradient(90deg, darkseagreen, steelblue);
+  padding: 10px;
+  margin-left: 10px;
+}
+.totaltckt h2 {
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: 0.03em;
+  float: left;
+  font-weight: bold;
+}

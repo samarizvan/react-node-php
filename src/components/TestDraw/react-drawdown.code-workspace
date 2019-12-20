@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "C:\\Bitnami\\wampstack-7.1.29-0\\apache2\\htdocs\\myddd1"
+    },
+    {
+      "path": "C:\\Bitnami\\wampstack-7.1.29-0\\apache2\\htdocs\\react-php"
+    },
+    {
+      "path": "C:\\Bitnami\\wampstack-7.1.29-0\\apache2\\htdocs\\Server-dd"
+    }
+  ],
+  "settings": {}
+}

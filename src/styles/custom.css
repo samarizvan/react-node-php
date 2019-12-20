@@ -1,0 +1,179 @@
+body {
+  font-size: 16px;
+  color: #888783;
+  font-family: "utopia-std", sans-serif;
+}
+.h1,
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+/*IntheDraw/DisplayDraw*/
+.inthedrawtitle {
+  background: steelblue;
+  border: 1px solid white;
+  margin: auto;
+  color: white;
+  box-shadow: 0 2px 5px 0 rgb(255, 255, 255), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.inthedrawmain {
+  width: 70%;
+  margin: 0 auto;
+  /*min-height: 385px;*/
+  padding-bottom: 38px;
+}
+.subcontent_nav {
+  height: 82px;
+}
+.table-wrap {
+  height: 198px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.displaytbl {
+  height: 345px !important;
+}
+.thfirst {
+  width: 20%;
+}
+.thsecond {
+  width: 50%;
+}
+.ththird {
+  width: 30%;
+}
+.ctrlbtn {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.strtbtn {
+  background: orangered;
+  border: 1px solid orangered;
+  color: white;
+  font-size: large;
+  width: 120px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-left: 20px;
+  text-align: center;
+}
+.stopbtn {
+  background: #3c4542;
+  border: 1px solid #3c4542;
+  color: white;
+  font-size: large;
+  width: 120px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-left: 20px;
+  text-align: center;
+}
+.sltwnrbtn {
+  background: darkseagreen;
+  border: 1px solid darkseagreen;
+  color: white;
+  font-size: large;
+  width: 146px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-left: 20px;
+  text-align: center;
+}
+.sltloserbtn {
+  background: indianred;
+  border: 1px solid indianred;
+  color: white;
+  font-size: large;
+  width: 146px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-left: 20px;
+  text-align: center;
+}
+/*end*/
+/* sponsors*/
+.sponsertitle {
+  background: #fec55e;
+  border: 1px solid white;
+  margin: auto;
+  color: white;
+  box-shadow: 0 2px 5px 0 rgb(255, 255, 255), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.sponsertitle h1 {
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.slideshowmain {
+  padding-bottom: 20px;
+}
+
+.slideshowmain h2 {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+  border: 1px solid #fec55e;
+  background: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sliderimg {
+  margin: 0 auto;
+}
+/**/

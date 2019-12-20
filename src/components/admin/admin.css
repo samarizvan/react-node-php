@@ -1,0 +1,50 @@
+.subbuilddraw {
+  font: 13px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  float: left;
+  padding-top: 8px;
+  padding-right: 5px;
+  border: 1px solid orangered;
+  padding: 40px;
+  min-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.builddraw {
+  margin: 30px;
+  border: 1px solid orangered;
+  padding: 20px;
+  font-weight: bold;
+  font: 15px Arial, Helvetica, sans-serif;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.buildtooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+  color: orangered;
+  font-style: italic;
+  font-size: 12px;
+  cursor: pointer;
+}
+.buildtooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 400px;
+  background-color: #944ac359;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 15px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+.buildtooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

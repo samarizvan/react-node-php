@@ -1,0 +1,12 @@
+.digital-clock {
+  margin: auto;
+  width: 310px;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  font: 50px/60px "DIGITAL", Helvetica;
+  background: linear-gradient(90deg, #6d99ff, #fec55e);
+  float: right;
+  margin-right: 10px;
+}

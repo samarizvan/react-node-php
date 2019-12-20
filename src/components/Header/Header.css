@@ -1,0 +1,27 @@
+.mainheader {
+  margin: auto;
+  /*margin-top: 20px;*/
+  background: #3c4542;
+  height: 94px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.headerlogo {
+  float: left;
+}
+.headertitle h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 3.5em;
+  float: right;
+  letter-spacing: 0.03em;
+  font-family: "proxima-nova", sans-serif;
+  margin-right: 50px;
+}
+.headermain {
+  margin-bottom: 0;
+}
+.mainWrapper {
+  background: #f3f3f3;
+}
